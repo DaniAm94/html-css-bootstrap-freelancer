@@ -1,0 +1,9 @@
+/* Utils */
+.my-border {
+    border: 2px dashed greenyellow;
+}
+
+/* Header */
+header {
+    height: 100px;
+}
