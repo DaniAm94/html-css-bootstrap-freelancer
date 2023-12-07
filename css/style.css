@@ -3,6 +3,19 @@
     border: 2px dashed greenyellow;
 }
 
+.container-small {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+/* ! Bordo container */
+.container-fluid,
+.container-sm,
+.container-lg {
+    border: 2px solid red;
+}
+
 /* Generics */
 section {
     min-height: 500px;
@@ -20,7 +33,7 @@ header {
     text-align: center;
 }
 
-.jumbotron .container-lg>* {
+.jumbotron .container-sm>* {
     border: 2px dashed purple
 }
 
@@ -35,11 +48,24 @@ header {
     color: yellow;
 }
 
-#portfolio>* {
+#portfolio .container-lg>* {
     border: 2px dashed orange;
 }
 
 #portfolio .col {
     border: 2px dashed white;
     min-height: 300px;
+}
+
+/* Description section */
+#description {
+    color: lightblue;
+}
+
+#description .container-fluid>* {
+    border: 2px dashed lightcoral;
+}
+
+#description p {
+    border: 2px dashed lightgoldenrodyellow;
 }
