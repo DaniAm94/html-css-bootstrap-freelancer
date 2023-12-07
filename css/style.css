@@ -7,3 +7,18 @@
 header {
     height: 100px;
 }
+
+/* Jumbotron */
+.jumbotron {
+    min-height: 500px;
+    text-align: center;
+}
+
+.jumbotron .container-lg>* {
+    border: 2px dashed purple
+}
+
+.jumbotron figure {
+    width: 200px;
+    height: 200px;
+}
