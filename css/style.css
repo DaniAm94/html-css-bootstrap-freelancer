@@ -16,6 +16,14 @@
     border: 2px solid red;
 }
 
+.bg-darkgrey {
+    background-color: darkslategray;
+}
+
+.bg-darkblue {
+    background-color: darkblue;
+}
+
 /* Generics */
 section {
     min-height: 500px;
@@ -77,6 +85,23 @@ header {
     border: 2px dashed grey;
 }
 
-#contacts .col-7:nth-last-of-type(3) {
+#contacts .col-7:nth-of-type(4) {
     height: 200px;
+}
+
+/* Footer */
+footer {
+    min-height: 200px;
+}
+
+.top-footer>* {
+    border: 2px dashed darkkhaki;
+}
+
+.footer-item {
+    margin: 20px 0;
+}
+
+.bottom-footer {
+    height: 150px;
 }
