@@ -20,6 +20,7 @@
 section {
     min-height: 500px;
     text-align: center;
+    padding: 20px 0;
 }
 
 /* Header */
@@ -68,4 +69,14 @@ header {
 
 #description p {
     border: 2px dashed lightgoldenrodyellow;
+}
+
+/* Contacts section */
+
+#contacts .col-7 {
+    border: 2px dashed grey;
+}
+
+#contacts .col-7:nth-last-of-type(3) {
+    height: 200px;
 }
