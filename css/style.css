@@ -8,12 +8,19 @@
     margin: 0 auto;
 }
 
+.my-btn {
+    border: 1px solid white;
+    border-radius: 5px;
+}
 
-/* ! Bordo container */
-.container-fluid,
-.container-sm,
-.container-lg {
-    border: 2px solid red;
+.line {
+    height: 3px;
+    border-radius: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .bg-darkgrey {
@@ -31,62 +38,98 @@ section {
     padding: 20px 0;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 /* Header */
 header {
     height: 100px;
+    background-color: rgb(49 62 79);
+    color: white;
 }
 
 /* Jumbotron */
 .jumbotron {
     min-height: 500px;
     text-align: center;
-}
-
-.jumbotron .container-sm>* {
-    border: 2px dashed purple
+    background-color: rgb(96 184 157);
+    color: white;
+    text-transform: uppercase;
 }
 
 .jumbotron figure {
-    width: 200px;
-    height: 200px;
+    max-width: 300px;
 }
+
+.jumbotron .line {
+    background-color: white;
+
+}
+
+
 
 /* Portfolio section */
 
 #portfolio {
-    color: yellow;
+    color: rgb(51 51 51);
+    background-color: white;
 }
 
-#portfolio .container-lg>* {
-    border: 2px dashed orange;
+#portfolio .line {
+    background-color: rgb(51 51 51);
 }
 
-#portfolio .col {
-    border: 2px dashed white;
-    min-height: 300px;
+#portfolio img {
+    border-radius: 20px;
 }
+
 
 /* Description section */
 #description {
-    color: lightblue;
+    background-color: rgb(96 184 157);
+    color: white;
 }
 
-#description .container-fluid>* {
-    border: 2px dashed lightcoral;
+#description .line {
+    background-color: white;
 }
 
-#description p {
-    border: 2px dashed lightgoldenrodyellow;
-}
+
+
 
 /* Contacts section */
 
-#contacts .col-7 {
-    border: 2px dashed grey;
+#contacts {
+    color: rgb(49 62 79);
 }
 
-#contacts .col-7:nth-of-type(4) {
-    height: 200px;
+form {
+    text-align: start;
+}
+
+#contacts .line {
+    background-color: rgb(49 62 79);
+}
+
+#contacts .form-control {
+    border: 0;
+    border-bottom: 1px solid rgb(33, 37, 41);
+    border-radius: 0;
+}
+
+#contacts .form-control::placeholder {
+    color: rgb(33, 37, 41);
+    font-weight: 500;
+}
+
+button {
+    background-color: rgb(96 184 157);
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 /* Footer */

@@ -25,16 +25,20 @@
 
 <body>
 
-    <header class="border border-danger bg-primary px-2">
+
+    <!-- Header -->
+    <header class=" px-2 text-uppercase">
         <div class="container-lg h-100">
             <div class="row justify-content-between h-100 align-items-center">
-                <h1 class="col-auto my-border">Titolo</h1>
-                <i class="bi bi-list col-auto fs-2 d-lg-none my-border" role="button"></i>
-                <nav class="d-none d-lg-block col-auto my-border">
+                <h1 class="col-auto">Start bootstrap</h1>
+                <i class="bi bi-list col-auto fs-2 d-lg-none my-btn" role="button"></i>
+                <nav class="d-none d-lg-block col-auto">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">link</a></li>
-                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">link</a></li>
-                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">link</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">portfolio</a>
+                        </li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">about</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">contacts</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -42,49 +46,75 @@
     </header>
 
     <!-- jumbotron -->
-    <div class="jumbotron bg-info py-3">
+    <div class="jumbotron py-3">
         <div class="container-sm">
-            <figure class="mx-auto">IMG</figure>
-            <h2>Titolo jumbotron</h2>
-            <div class="mb-3">Here a separator</div>
-            <address>Some text</address>
+            <figure class="mx-auto">
+                <img src="img/avatar.svg" alt="avatar">
+            </figure>
+            <h2>Start Bootstrap</h2>
+            <div class="mb-3 separator row justify-content-center align-items-center">
+                <div class="line col col-2"></div>
+                <i class="bi bi-star-fill col-2 fs-1"></i>
+                <div class="line col-2"></div>
+            </div>
+            <address>graphic - artist - web designer - illustrator</address>
         </div>
     </div>
 
     <!-- Portfolio section -->
-    <section class="bg-success" id="portfolio">
+    <section id="portfolio">
         <div class="container-lg">
-            <h2>Titolo sezione</h2>
-            <div class="mb-4">separator</div>
+            <h2>Portfolio</h2>
+            <div class="mb-3 separator row justify-content-center align-items-center">
+                <div class="line col col-2"></div>
+                <i class="bi bi-star-fill col-2 fs-1"></i>
+                <div class="line col-2"></div>
+            </div>
             <div class="row">
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <figure>img</figure>
+                <div class="col-12 col-lg-6 col-xxl-4">
+                    <figure>
+                        <img src="img/cabin.png" alt="cabin">
+                    </figure>
                 </div>
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <figure>img</figure>
+                <div class="col-12 col-lg-6 col-xxl-4">
+                    <figure>
+                        <img src="img/cake.png" alt="cake">
+                    </figure>
                 </div>
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <figure>img</figure>
+                <div class="col-12 col-lg-6 col-xxl-4">
+                    <figure>
+                        <img src="img/circus.png" alt="circus">
+                    </figure>
                 </div>
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <figure>img</figure>
+                <div class="col-12 col-lg-6 col-xxl-4">
+                    <figure>
+                        <img src="img/game.png" alt="game">
+                    </figure>
                 </div>
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <figure>img</figure>
+                <div class="col-12 col-lg-6 col-xxl-4">
+                    <figure>
+                        <img src="img/safe.png" alt="safe">
+                    </figure>
                 </div>
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <figure>img</figure>
+                <div class="col-12 col-lg-6 col-xxl-4">
+                    <figure>
+                        <img src="img/submarine.png" alt="submarine">
+                    </figure>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Description section -->
-    <section class="bg-dark" id="description">
+    <section id="description">
         <div class="container-fluid">
-            <h2>Titolo sezione</h2>
-            <div class="mb-4">separator</div>
-            <div class="row row-cols-lg-2 justify-content-center text-start mb-3">
+            <h2>About</h2>
+            <div class="mb-3 separator row justify-content-center align-items-center">
+                <div class="line col col-2"></div>
+                <i class="bi bi-star-fill col-2 fs-1"></i>
+                <div class="line col-2"></div>
+            </div>
+            <div class="row justify-content-center text-start mb-3">
                 <p class="col-7 col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia rerum
                     commodi sunt,
                     consequuntur eos sit harum nobis libero excepturi saepe illo. Aliquam, qui provident quos quo nulla
@@ -112,32 +142,35 @@
                     maiores deserunt alias ducimus odio dolore amet, quis a blanditiis. Dicta odit perferendis adipisci
                     voluptatibus!</p>
             </div>
-            <a class="border border-light rounded px-3 py-1 text-decoration-none text-white">Button</a>
+            <a class="border border-light rounded px-3 py-2 text-decoration-none text-white">
+                <i class="bi bi-download"></i>
+                Download
+            </a>
         </div>
     </section>
 
     <!-- Contacts section -->
     <section id="contacts">
         <div class="container-fluid">
-            <h2>Titolo sezione</h2>
-            <div>separator</div>
-            <div class="row justify-content-center text-start mb-4">
-                <div class="col-7">
-                    <div class="field">fill in the blank</div>
-                </div>
-                <div class="col-7">
-                    <div class="field">fill in the blank</div>
-                </div>
-                <div class="col-7">
-                    <div class="field">fill in the blank</div>
-                </div>
-                <div class="col-7">
-                    <div class="field">fill in the blank</div>
-                </div>
-                <div class="col-7 py-3">
-                    <a class="border border-dark rounded px-3 py-1 text-decoration-none text-dark bg-danger">Button</a>
-                </div>
+            <h2>Contact me</h2>
+            <div class="mb-3 separator row justify-content-center align-items-center">
+                <div class="line col col-2"></div>
+                <i class="bi bi-star-fill col-2 fs-1"></i>
+                <div class="line col-2"></div>
             </div>
+            <form action="" class="w-50 m-auto">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Name" name="name" required>
+                    <input type="email" class="form-control" placeholder="Email Address" name="email" required>
+                    <input type="tel" class="form-control" placeholder="Phone Number" name="phone" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"
+                        name="message"></textarea>
+                </div>
+                <button>Send</button>
+            </form>
+
 
         </div>
     </section>
