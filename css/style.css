@@ -137,8 +137,19 @@ footer {
     min-height: 200px;
 }
 
-.top-footer>* {
-    border: 2px dashed darkkhaki;
+.top-footer {
+    background-color: rgb(65 84 108);
+}
+
+.top-footer a {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-item {
@@ -147,4 +158,5 @@ footer {
 
 .bottom-footer {
     height: 150px;
+    background-color: rgb(49 62 79);
 }
