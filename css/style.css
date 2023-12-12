@@ -144,7 +144,6 @@ footer {
 .top-footer a {
     border: 2px solid white;
     border-radius: 50%;
-    padding: 10px;
     height: 50px;
     width: 50px;
     display: flex;
@@ -152,11 +151,15 @@ footer {
     align-items: center;
 }
 
+.highlight {
+    color: rgb(122 181 158);
+}
+
 .footer-item {
     margin: 20px 0;
 }
 
 .bottom-footer {
-    height: 150px;
+    height: 100px;
     background-color: rgb(49 62 79);
 }
